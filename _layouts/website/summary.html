@@ -1,0 +1,13 @@
+{% extends template.self %} {% block summary %}
+<nav role="navigation">
+  <ul class="summary">
+    {{ super() }}
+    <li class="divider"></li>
+    <li>
+      <strong>🌐 Pilih Bahasa:</strong><br />
+      <a href="/id/">🇮🇩 Indonesia</a><br />
+      <a href="/en/">🇺🇸 English</a>
+    </li>
+  </ul>
+</nav>
+{% endblock %}
