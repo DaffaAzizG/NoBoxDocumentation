@@ -1,0 +1,9 @@
+{% extends template.self %} {% block body %}
+<div class="book-header">
+  <h1>📘 Pilih Bahasa Dokumentasi</h1>
+  <div class="lang-switcher">
+    <a href="/id/">🇮🇩 Bahasa Indonesia</a> |
+    <a href="/en/">🇺🇸 English</a>
+  </div>
+</div>
+{{ super() }} {% endblock %}
