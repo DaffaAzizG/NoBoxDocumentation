@@ -36,8 +36,8 @@ Untuk menghapus suatu data kategori produk adalah dengan pilih data mana yang ak
 
 3\. Pilih salah satu dari data kategori tersebut dan klik **\[Simpan]** untuk menyiapkan kembali data produk.
 
-<figure><img src="../../.gitbook/assets/Cara Penggunaan kategori Tugas.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ProdukCaraKategori.PNG" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 Jika ada masalah atau kesulitan terkait Nobox.Ai, silahkan hubungi kami melalui [Support Ticket](https://crm.nobox.ai/clients/tickets)

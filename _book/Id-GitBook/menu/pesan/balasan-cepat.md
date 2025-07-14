@@ -6,9 +6,7 @@ icon: messages
 
 Balasan Cepat adalah salah satu menu pada Nobox.Ai yang digunakan untuk template pesan agar dapat membalas pesan lebih cepat berupa pesan teks atau media seperti gambar, GIF dan Video.
 
-
 <iframe width="742" height="418" src="https://www.youtube.com/embed/oU0Z6xRhfnU" title="Pengenalan Tampilan NoBox" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 
 <figure><img src="../../.gitbook/assets/Balasan Cepat (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -16,9 +14,9 @@ Balasan Cepat adalah salah satu menu pada Nobox.Ai yang digunakan untuk template
 
 Untuk membuat data balasan cepat, silahkan klik menu **\[Balasan Cepat]** **➔ \[Tambah Balasan Cepat]**. Maka akan tampil dialog **\[Tambah Balasan Cepat]**, kemudian lengkapi isian-isian yang terdapat pada dialog tersebut.
 
-<figure><img src="../../.gitbook/assets/Tambah Balasan Cepat.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Tambah.PNG" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="127.79998779296875">Isian</th><th width="150.79998779296875">Uraian</th><th>Contoh</th></tr></thead><tbody><tr><td>Perintah</td><td>Perintah balasan</td><td>Rekening</td></tr><tr><td>File</td><td>Pilih file</td><td></td></tr><tr><td>Konten Pesan </td><td>Isi pesan</td><td>Pembayaran ditransfer ke Bank BCA xxx.xxxx.xxx an Ana. Bank Mandiri xxx-xx-xxxx-x an Ana. Setelah transfer silahkan kirim buktinya ke WA 0810000-0000</td></tr></tbody></table>
+<table><thead><tr><th width="127.79998779296875">Isian</th><th width="150.79998779296875">Uraian</th><th>Contoh</th></tr></thead><tbody><tr><td>Perintah</td><td>Perintah balasan</td><td>Rekening</td></tr><tr><td>File</td><td>Pilih file</td><td></td></tr><tr><td>Type</td><td>Type Balasan</td><td>General</td></tr><tr><td>Konten Pesan </td><td>Isi pesan</td><td>Pembayaran ditransfer ke Bank BCA xxx.xxxx.xxx an Ana. Bank Mandiri xxx-xx-xxxx-x an Ana. Setelah transfer silahkan kirim buktinya ke WA 0810000-0000</td></tr></tbody></table>
 
 Jika Anda sudah melengkapi isian-isian di atas, klik **\[Simpan]** untuk menyimpan data tersebut.
 
@@ -44,6 +42,6 @@ Untuk mengirimkan balasan cepat, Anda perlu mengikuti langkah-langkah berikut :
 
 <figure><img src="../../.gitbook/assets/Balasan Cepat Terkirim.png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 Jika ada masalah atau kesulitan terkait Nobox.Ai, silahkan hubungi kami melalui [Support Ticket](https://crm.nobox.ai/clients/tickets)

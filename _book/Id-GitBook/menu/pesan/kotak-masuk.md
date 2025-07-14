@@ -6,21 +6,19 @@ icon: inbox
 
 Kotak Masuk adalah salah satu menu NoBox.Ai yang digunakan untuk melayani semua pesan yang masuk dari beberapa channel seperti WhatsApp, Telegram, Shopee dll.
 
-
 <iframe width="742" height="418" src="https://www.youtube.com/embed/CeNBiHeQ1aU" title="Pengenalan Tampilan NoBox" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-<figure><img src="../../.gitbook/assets/Kotak Masuk.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/KotakMasukTampilan.PNG" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th width="134.5999755859375">Fitur/Tombol</th><th>Fungsi</th></tr></thead><tbody><tr><td>Semua</td><td>Semua percakapan yang masuk.</td></tr><tr><td>Baru</td><td>Semua percakapan yang belum ditugaskan ke agen.</td></tr><tr><td>Proses</td><td>Berisi percakapan yang telah ditugaskan kepada agen.</td></tr><tr><td>Selesai</td><td>Berisi percakapan yang telah selesai/dijawab dengan sempurna dan agen ingin menutup percakapan.</td></tr></tbody></table>
 
-* Arsip Percakapan adalah fitur untuk menyimpan atau menyortir pesan-pesan yang mungkin tidak lagi relevan atau perlu ditanggapi. Dengan mengarsipkan, pengguna dapat membersihkan daftar percakapan utama mereka tanpa menghapus pesan-pesan tersebut secara permanen. Silahkan klik ikon **\[**![](../../.gitbook/assets/Arsip.png)**]** untuk menampilkan percakapan yang diarsipkan.
-* Anda dapat filter percakapan sesuai dengan Status, Kanal, Akun, Kontak, dsb. Untuk filter percakapan silahkan klik ikon **\[**![](../../.gitbook/assets/filter.png)**]** maka akan tampil filter percakapan. Filter data yang diinginkan klik tombol **\[Tampilkan]** maka percakapan akan tampil sesuai dengan filter. Klik **\[Reset]** untuk menghapus filter percakapan.
+- Arsip Percakapan adalah fitur untuk menyimpan atau menyortir pesan-pesan yang mungkin tidak lagi relevan atau perlu ditanggapi. Dengan mengarsipkan, pengguna dapat membersihkan daftar percakapan utama mereka tanpa menghapus pesan-pesan tersebut secara permanen. Silahkan klik ikon **\[**![](../../.gitbook/assets/Arsip.png)**]** untuk menampilkan percakapan yang diarsipkan.
+- Anda dapat filter percakapan sesuai dengan Status, Kanal, Akun, Kontak, dsb. Untuk filter percakapan silahkan klik ikon **\[**![](../../.gitbook/assets/filter.png)**]** maka akan tampil filter percakapan. Filter data yang diinginkan klik tombol **\[Tampilkan]** maka percakapan akan tampil sesuai dengan filter. Klik **\[Reset]** untuk menghapus filter percakapan.
 
 ![](../../.gitbook/assets/FIlter.PNG)
 
-* Fitur Buat Percakapan memungkinkan pengguna untuk memulai percakapan baru dengan kontak yang sudah ada dalam daftar mereka. Ini bisa sangat berguna untuk inisiasi obrolan dengan seseorang tanpa harus mencari nama kontak atau grup secara manual. Silahkan klik ikon **\[**![](<../../.gitbook/assets/percakapan baru.png>)**]** untuk membuat percakapan baru.
-* Fitur Pencarian digunakan untuk melakukan mencari percakapan atau kontak yang sesuai dengan kata kunci yang diketik.
+- Fitur Buat Percakapan memungkinkan pengguna untuk memulai percakapan baru dengan kontak yang sudah ada dalam daftar mereka. Ini bisa sangat berguna untuk inisiasi obrolan dengan seseorang tanpa harus mencari nama kontak atau grup secara manual. Silahkan klik ikon **\[**![](<../../.gitbook/assets/percakapan baru.png>)**]** untuk membuat percakapan baru.
+- Fitur Pencarian digunakan untuk melakukan mencari percakapan atau kontak yang sesuai dengan kata kunci yang diketik.
 
 ![](../../.gitbook/assets/Pencarian.png)
 
@@ -28,7 +26,7 @@ Kotak Masuk adalah salah satu menu NoBox.Ai yang digunakan untuk melayani semua 
 
 Pada halaman Kotak Masuk, supervisor dapat mengalokasikan pelanggan kepada agen yang tersedia. Untuk tambah agen silahkan klik tombol **\[+ Agen]** maka akan tampil agen-agen yang tersedia klik nama agen untuk pilih agen tersebut.
 
-<figure><img src="../../.gitbook/assets/Tambah Agen.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/KotakMasukTambahAgen.png" alt=""><figcaption></figcaption></figure>
 
 Sistem juga bisa secara otomatis mendistribusikan pelanggan kepada agen yang sedang online.
 
@@ -82,40 +80,40 @@ Pada halaman Kotak Masuk terdapat informasi chat, silahkan klik tombol **\[**![]
 
 Terdapat beberapa bagian yang mempunyai fungsi masing-masing. Penjelasan dari fungsi tersebut adalah sebagai berikut :
 
-* Informasi (nama, foto profile dan nomer telp).
-* Riwayat Percakapan adalah fitur yang digunakan untuk menampilkan riwayat percakapan yang telah selesai.
+- Informasi (nama, foto profile dan nomer telp).
+- Riwayat Percakapan adalah fitur yang digunakan untuk menampilkan riwayat percakapan yang telah selesai.
 
 ![](<../../.gitbook/assets/Riwayat Percakapan.png>)
 
-* Terdapat informasi nama dan alamat kontak, untuk edit data kontak silahkan klik ikon **\[**[![](https://crm.nobox.ai/media/public/Knowladge%20Base%20New/Chat/edit%20contact.png)](https://crm.nobox.ai/media/public/Knowladge%20Base%20New/Chat/edit%20contact.png)**]** maka akan diarahkan ke edit kontak.
+- Terdapat informasi nama dan alamat kontak, untuk edit data kontak silahkan klik ikon **\[**[![](https://crm.nobox.ai/media/public/Knowladge%20Base%20New/Chat/edit%20contact.png)](https://crm.nobox.ai/media/public/Knowladge%20Base%20New/Chat/edit%20contact.png)**]** maka akan diarahkan ke edit kontak.
 
 ![](<../../.gitbook/assets/Kontak Percakapan.png>)
 
-* Terdapat informasi percakapan dari akun yang menangani, tanggal buat percakapan dan tanggal terakhir kirim pesan.
+- Terdapat informasi percakapan dari akun yang menangani, tanggal buat percakapan dan tanggal terakhir kirim pesan.
 
 ![](../../.gitbook/assets/Percakapan.png)
 
-* Notes adalah catatan terkait dengan percakapan yang dipilih, untuk catatan bisa ditambah, edit dan di hapus. Jadi agen yang lain dapat menambahkan catatan.
+- Notes adalah catatan terkait dengan percakapan yang dipilih, untuk catatan bisa ditambah, edit dan di hapus. Jadi agen yang lain dapat menambahkan catatan.
 
 ![](<../../.gitbook/assets/Catatan Percakapan.png>)
 
-* Tags adalah salah satu fitur yang digunakan untuk mengelompokkan data percakapan Anda dan bisa menambahkan lebih dari satu tag di dalam suatu chat.
+- Tags adalah salah satu fitur yang digunakan untuk mengelompokkan data percakapan Anda dan bisa menambahkan lebih dari satu tag di dalam suatu chat.
 
 ![](<../../.gitbook/assets/Tag Percakapan.png>)
 
-* Promosi adalah salah satu fitur yang digunakan untuk informasi promosi yang terhubung dengan percakapan tersebut.
+- Promosi adalah salah satu fitur yang digunakan untuk informasi promosi yang terhubung dengan percakapan tersebut.
 
 ![](<../../.gitbook/assets/Promosi Percakapan.png>)
 
-* Funnel salah satu fitur yang digunakan untuk mengkategorikan tahapan proses pemasaran dan support, atau juga bisa Anda buat funnel baru.
+- Funnel salah satu fitur yang digunakan untuk mengkategorikan tahapan proses pemasaran dan support, atau juga bisa Anda buat funnel baru.
 
 ![](../../.gitbook/assets/Funnel.png)
 
-* Deal adalah salah satu fitur yang digunakan untuk menghubungkan deal dengan percakapan tersebut.
+- Deal adalah salah satu fitur yang digunakan untuk menghubungkan deal dengan percakapan tersebut.
 
 ![](<../../.gitbook/assets/Penawaran Percakapan.png>)
 
-* Agen adalah salah satu fitur yang digunakan untuk informasi agen siapa saja yang menangani percakapan tersebut.
+- Agen adalah salah satu fitur yang digunakan untuk informasi agen siapa saja yang menangani percakapan tersebut.
 
 ![](<../../.gitbook/assets/Agen Percakapan.png>)
 
@@ -151,6 +149,6 @@ Salah satu menu pada NoBox yang digunakan untuk template pesan agar dapat membal
 
 <figure><img src="../../.gitbook/assets/Balasan Cepat.png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 Jika ada masalah atau kesulitan terkait NoBox, silahkan hubungi kami melalui [Support Ticket](https://crm.nobox.ai/clients/tickets)

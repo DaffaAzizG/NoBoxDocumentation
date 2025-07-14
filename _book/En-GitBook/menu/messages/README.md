@@ -1,6 +1,0 @@
----
-icon: message-dots
----
-
-# Messages
-

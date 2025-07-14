@@ -6,9 +6,7 @@ icon: tags
 
 Tag Produk adalah salah satu menu pada NoBox.Ai yang digunakan untuk mengelompokkan data produk Anda.
 
-
 <iframe width="742" height="418" src="https://www.youtube.com/embed/OZ3wlC0JokA" title="Pengenalan Tampilan NoBox" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 
 <figure><img src="../../.gitbook/assets/Tag Produk.png" alt=""><figcaption></figcaption></figure>
 
@@ -30,7 +28,7 @@ Untuk mengedit suatu data tag, silahkan pilih terlebih dahulu data mana yang aka
 
 2\. Klik pada bagian isian di kolom Tag, maka akan muncul tag yang sudah dibuat sebelumnya.
 
-<figure><img src="../../.gitbook/assets/Penggunaan Tag Produk.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ProdukCaraTag.PNG" alt=""><figcaption></figcaption></figure>
 
 3\. Pilih satu atau lebih dari data tag tersebut dan klik **\[Simpan]** untuk menyimpan kembali data produk.
 
@@ -42,6 +40,6 @@ Filter produk tag digunakan untuk memilah data produk dan menampilkan data berda
 
 <figure><img src="../../.gitbook/assets/Filter Tag Produk.png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 Jika ada masalah atau kesulitan terkait NoBox.Ai, silahkan hubungi kami melalui [Support Ticket](https://crm.nobox.ai/clients/tickets)

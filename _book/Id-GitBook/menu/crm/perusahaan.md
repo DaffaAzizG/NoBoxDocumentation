@@ -6,30 +6,31 @@ icon: building-memo
 
 Perusahaan adalah salah satu menu pada CRM NoBox.Ai yang digunakan untuk manajemen informasi dan aktivitas yang terkait dengan perusahaan atau bisnis pelanggan.
 
-
 <iframe width="742" height="418" src="https://www.youtube.com/embed/ike07JFtXtc" title="Pengenalan Tampilan NoBox" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-<figure><img src="../../.gitbook/assets/Perusahaan.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/PerusahaanTampilan.PNG" alt=""><figcaption></figcaption></figure>
 
 ## **Tambah Perusahaan**
 
 Untuk membuat data perusahaan, silahkan Anda klik modul **\[CRM] ➔** klik menu **\[Perusahaan] ➔ \[Perusahaan] ➔ \[Tambah Perusahaan]**. Maka akan tampil dialog **\[Tambah Perusahaan]** kemudian lengkapi isian-isian yang terdapat dalam dialog tersebut.
 
-<figure><img src="../../.gitbook/assets/Tambah Perusahaan.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/PerusahaanTambah.PNG" alt=""><figcaption></figcaption></figure>
 
 | Isian     | Uraian               | Contoh           |
 | --------- | -------------------- | ---------------- |
 | Nama      | Nama perusahaan      | Naysa Collection |
-| Pemilik   | Pemilik perusahaan   | Ita Putri        |
+| Pemilik   | Pemilik perusahaan   | INDAHYATI        |
 | Gambar    | Gambar perusahaan    | -                |
 | Situs Web | Situs web perusahaan | www.nasya.com    |
 | Telepon   | Nomor telepon        | 0823569          |
 | Negara    | Negara perusahaan    | Indonesia        |
 | Provinsi  | Provinsi perusahaan  | Jawa Timur       |
-| Kota      | Kota Perusahaan      | Kota Malang      |
+| Kota      | Kota Perusahaan      | Kabupaten Gresik |
 | Kode Pos  | Kode pos             | 65165            |
 | Alamat    | Alamat Perusahaan    | Jl.Ikan Hiu      |
+| Industri  | Jenis Industri       | Pakaian & Model  |
+| Sumber    | Sumber               | Website          |
+| Tipe      | Tipe Perusahaan      | Partner          |
 
 Jika Anda sudah melengkapi isian-isian yang ada, klik **\[Simpan]** untuk menyimpan data perusahaan yang baru saja Anda buat.
 
@@ -95,6 +96,6 @@ Fitur ini hanya bisa digunakan oleh NoBox.Ai Supervisor, agen hanya bisa menamba
 
 Untuk mengedit suatu data catatan, silahkan klik ikon **\[**![](../../.gitbook/assets/Edit.png)**]** di bagian samping catatan yang ingin Anda edit. Editlah data tersebut dan klik tombol kirim atau tekan enter pada keyboard Anda untuk menyimpan perubahan tersebut. Untuk menghapus data catatan, silahkan klik ikon \[![](../../.gitbook/assets/Hapus.png)] di bagian samping catatan yang ingin dihapus. Maka akan muncul dialog konfirmasi apakah Anda ingin menghapus catatan tersebut. Jika ya, klik **\[Ya]** jika tidak maka klik **\[Tidak]**.
 
-***
+---
 
 Jika ada masalah atau kesulitan terkait NoBox.Ai, silahkan hubungi kami melalui [Support Ticket](https://crm.nobox.ai/clients/tickets)
