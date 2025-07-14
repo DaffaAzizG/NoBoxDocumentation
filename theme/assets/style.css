@@ -1,0 +1,17 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #1e1e1e;
+  color: #eeeeee;
+}
+
+.book-summary {
+  background: #2c2c2c;
+}
+
+.book-summary a {
+  color: #ffcc00;
+}
+
+.book .book-body .page-wrapper {
+  padding: 2rem;
+}

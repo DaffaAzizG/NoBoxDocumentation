@@ -1,5 +1,16 @@
 {
+  "plugins": ["theme-default", "search", "redirect"],
+  "pluginsConfig": {
+    "theme-default": {
+      "templates": "./theme/templates",
+      "stylesheet": "book.css"
+    },
+    "redirect": {
+      "/": "/landing/"
+    }
+  },
   "styles": {
-    "website": "book.css"
-  }
-}
+    "website": "styles/book.css"
+  },
+  "theme": "default"
+} 
