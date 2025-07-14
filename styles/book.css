@@ -1,0 +1,37 @@
+/* Sembunyikan submenu secara default */
+.book-summary .summary .has-submenu .submenu {
+    display: none;
+}
+
+/* Tampilkan submenu ketika parent-nya punya class .open */
+.book-summary .summary .has-submenu.open .submenu {
+    display: block;
+}
+
+/* Styling untuk panah */
+.book-summary .summary .has-submenu > a {
+    position: relative;
+    padding-left: 20px;
+}
+
+.book-summary .summary .has-submenu > a::before {
+    content: '►';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.8em;
+    color: #aaa;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Putar panah saat .open */
+.book-summary .summary .has-submenu.open > a::before {
+    transform: translateY(-50%) rotate(90deg);
+    color: #333;
+}
+
+/* Indentasi submenu */
+.book-summary .summary .submenu {
+    padding-left: 15px;
+}

@@ -1,5 +1,13 @@
 {
   "styles": {
-    "website": "book.css"
+    "website": "styles/book.css"
+  },
+  "plugins": [
+    "language-picker"
+  ],
+  "pluginsConfig": {
+    "language-picker": {
+      "type": "sidebar"
+    }
   }
 }

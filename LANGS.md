@@ -1,4 +1,4 @@
 #Languages
 
-- [Bahasa Indonesia](Id-GitBook/)
-- [English](En-GitBook/)
+- [Indonesian](Id/)
+- [English](En/)

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    // Bahasa yang didukung
+    const supportedLangs = ['id', 'en'];
+    
+    // Deteksi preferensi browser
+    const browserLang = navigator.language.slice(0, 2).toLowerCase();
+    
+    // Bahasa default jika tidak cocok
+    const defaultLang = 'id';
+    
+    // Tentukan tujuan redirect
+    const targetLang = supportedLangs.includes(browserLang) ? browserLang : defaultLang;
+
+    // Arahkan ke folder bahasa
+    window.location.href = `./${targetLang}/`;
+  </script>
+</head>
+<body>
+  <p>Mengarahkan ke bahasa yang sesuai...</p>
+</body>
+</html>
