@@ -1,5 +1,5 @@
 {
-  "plugins": ["theme-default", "search", "redirect"],
+  "plugins": [],
   "pluginsConfig": {
     "theme-default": {
       "templates": "./theme/templates",
@@ -13,4 +13,4 @@
     "website": "styles/book.css"
   },
   "theme": "default"
-} 
+}
