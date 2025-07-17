@@ -1,0 +1,11 @@
+{% block search_input %}
+<div class="custom-search-box">
+  <input
+    type="text"
+    id="customSearchInput"
+    placeholder="Cari topik..."
+    oninput="handleCustomSearch(this.value)"
+  />
+  <ul id="customSearchResults" class="search-result-list"></ul>
+</div>
+{% endblock %}

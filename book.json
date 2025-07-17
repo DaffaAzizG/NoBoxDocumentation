@@ -1,8 +1,13 @@
 {
-  "plugins": [],
+  "plugins": [
+    "fontsettings",
+    "search",
+    "-sharing",
+    "-sharing-plus",
+    "-languages"
+  ],
   "pluginsConfig": {
     "theme-default": {
-      "templates": "./theme/templates",
       "stylesheet": "book.css"
     },
     "redirect": {
@@ -11,6 +16,5 @@
   },
   "styles": {
     "website": "styles/book.css"
-  },
-  "theme": "default"
+  }
 }

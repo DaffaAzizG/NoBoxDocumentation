@@ -1,9 +1,28 @@
+
 {% extends template.self %} {% block body %}
-<div class="book-header">
-  <h1>📘 Pilih Bahasa Dokumentasi</h1>
-  <div class="lang-switcher">
-    <a href="/id/">🇮🇩 Bahasa Indonesia</a> |
-    <a href="/en/">🇺🇸 English</a>
-  </div>
+
+
+<div class="book-langs-index" role="navigation">
+    <div class="inner">
+        <h3>Choose a language</h3>
+
+        <ul class="languages">
+            <li>
+    <a href="id/">
+      <img src="id-flag.png"/>
+      Bahasa Indonesia
+    </a>
+  </li>
+        
+            <li>
+    <a href="en/" >
+      <img src="en-flag.png"/>
+      English
+    </a>
+  </li>
+            </li>
+        
+        </ul>
+    </div>
 </div>
-{{ super() }} {% endblock %}
+{% endblock %}

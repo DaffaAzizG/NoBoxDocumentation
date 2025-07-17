@@ -1,0 +1,142 @@
+<script>
+function activateSidebarToggle() {
+    var chapters = document.querySelectorAll(".chapter.has-children > .chapter-title");
+
+    chapters.forEach(function (el) {
+        var parent = el.parentNode;
+        var chapterId = parent.getAttribute("data-path");
+
+        // Pulihkan state dari localStorage
+        if (chapterId && localStorage.getItem("chapter-open-" + chapterId) === "true") {
+            parent.classList.add("open");
+        }
+
+        el.onclick = function (e) {
+            // Jangan toggle kalau klik link
+            if (e.target.tagName.toLowerCase() === "a") return;
+
+            parent.classList.toggle("open");
+
+            // Simpan state ke localStorage
+            if (chapterId) {
+                localStorage.setItem("chapter-open-" + chapterId, parent.classList.contains("open"));
+            }
+        };
+    });
+
+    // Buka parent dari halaman aktif
+    var active = document.querySelector(".chapter.active");
+    if (active) {
+        var parent = active.parentElement;
+        while (parent && parent.classList.contains("chapter")) {
+            parent.classList.add("open");
+            parent = parent.parentElement.closest(".chapter");
+        }
+    }
+}
+
+// Panggil saat DOM dimuat
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", activateSidebarToggle);
+} else {
+    activateSidebarToggle();
+}
+
+// Reaktifkan setiap kali halaman berubah
+if (typeof gitbook !== "undefined") {
+    gitbook.events.on("page.change", function () {
+        activateSidebarToggle();
+    });
+}
+
+
+// Modal Seacrh
+
+function openSearchModal(results) {
+  const modal = document.getElementById("searchModal");
+  const list = document.getElementById("searchResultsList");
+  list.innerHTML = "";
+
+  if (results.length === 0) {
+    list.innerHTML = "<li>Tidak ditemukan hasil.</li>";
+  } else {
+    results.forEach(function (res) {
+      const li = document.createElement("li");
+      const a = document.createElement("a");
+      a.href = res.url;
+      a.textContent = res.title;
+      a.onclick = () => {
+        modal.style.display = "none"; // tutup modal setelah klik
+      };
+      li.appendChild(a);
+      list.appendChild(li);
+    });
+  }
+
+  modal.style.display = "flex";
+}
+
+function closeModal() {
+  document.getElementById("searchModal").style.display = "none";
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  const closeBtn = document.querySelector(".modal-close");
+  const modal = document.getElementById("searchModal");
+
+  closeBtn.onclick = closeModal;
+  window.onclick = function (e) {
+    if (e.target === modal) closeModal();
+  };
+});
+
+// ⛔ OVERRIDE DEFAULT BEHAVIOR
+if (typeof gitbook !== "undefined") {
+  gitbook.events.off && gitbook.events.off("search.results"); // optional safety
+  gitbook.events.on("search.results", function (query, results) {
+    // ❗️JANGAN tampilin di page.inner seperti default
+    // tampilkan ke modal kita sendiri saja
+    openSearchModal(results);
+  });
+}
+
+
+
+document.addEventListener("keydown", function (e) {
+  if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
+    e.preventDefault();
+    document.getElementById("searchModal").style.display = "flex";
+    document.getElementById("modalSearchInput").focus();
+  }
+});
+
+document.addEventListener("click", function (e) {
+  if (e.target.id === "searchModal") {
+    document.getElementById("searchModal").style.display = "none";
+  }
+});
+
+document.getElementById("modalSearchInput").addEventListener("input", function (e) {
+  const query = e.target.value;
+  const list = document.getElementById("modalSearchResults");
+  list.innerHTML = "";
+
+  if (!query) return;
+
+  gitbook.search.query(query).then(function (results) {
+    if (results.length === 0) {
+      list.innerHTML = "<li>Tidak ditemukan hasil</li>";
+    } else {
+      results.forEach(res => {
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+        a.href = res.url;
+        a.textContent = res.title;
+        li.appendChild(a);
+        list.appendChild(li);
+      });
+    }
+  });
+});
+</script>
+
