@@ -11,7 +11,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
     var THEMES = [
         {
             config: 'white',
-            text: 'White',
+            text: '<i class="fa fa-sun-o"></i>',
             id: 0
         },
         {
@@ -185,12 +185,12 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             dropdown: [
                 [
                     {
-                        text: 'A',
+                        text: '-A',
                         className: 'font-reduce',
                         onClick: reduceFontSize
                     },
                     {
-                        text: 'A',
+                        text: '+A',
                         className: 'font-enlarge',
                         onClick: enlargeFontSize
                     }
@@ -203,14 +203,23 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
                     return family;
                 }),
                 $.map(THEMES, function(theme) {
-                    theme.onClick = function(e) {
-                        return changeColorTheme(theme.config, e);
-                    };
-
-                    return theme;
+                    return {
+            text: '', // kosongin supaya kita atur manual di bawah
+            className: 'custom-theme-button theme-' + theme.config,
+            onClick: function(e) {
+                return changeColorTheme(theme.config, e);
+            }};
                 })
             ]
         });
+
+            // Inject ikon ke tombol theme setelah tombol dibuat
+    setTimeout(function () {
+        $('.custom-theme-button.theme-white').html('<i class="fa fa-sun"></i>');
+        $('.custom-theme-button.theme-sepia').html('<i class="fa fa-coffee"></i>');
+        $('.custom-theme-button.theme-night').html('<i class="fa fa-moon"></i>');
+    }, 100);
+
     }
 
     // Init configuration at start
